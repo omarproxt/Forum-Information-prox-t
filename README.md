@@ -10,5 +10,5 @@ Extract forum information (Amino)
 - pkg install python
 - pip install tabulate
 - git clone https://github.com/omarproxt/Forum-Information-prox-t
-- cd DeviceGenerator-prox-t
+- cd Forum-Information-prox-t
 - python Forum-Information-prox-t.py
