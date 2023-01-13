@@ -1,3 +1,5 @@
+import os
+os.system ('clear')
 import requests, pyfiglet,time,sys,webbrowser 
 Ab='\033[1;92m'
 aB='\033[1;91m'
@@ -13,7 +15,6 @@ Ya_Bs = '\033[1;34m'
 S_aBs = '\033[1;33m'
 logo = pyfiglet.figlet_format('omarproxt')
 print(a_bSa+logo)
-webbrowser.open('https://t.me/omarproxt25')
 import amino
 client = amino.Client()
 com_id = client.get_from_code(input("-- Community Link••>> ")).json["extensions"]["community"]["ndcId"]
